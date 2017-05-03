@@ -343,7 +343,7 @@ Fields ::= Field:f
 
 FieldList ::= 
 		{:
-			
+			RESULT = new ArrayList<Type.Field>();
 		:}
 	| Fields:f
 		{:
@@ -683,7 +683,7 @@ ExpList ::= Condition:c
 //RecordFields
 RecordFields ::= 
 		{:
-		
+			RESULT = new ArrayList<ExpNode>();
 		:}
 	| ExpList:e
 		{:

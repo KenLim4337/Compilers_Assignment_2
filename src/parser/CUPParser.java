@@ -753,7 +753,7 @@ class CUP$CUPParser$actions {
             {
               List<Type.Field> RESULT =null;
 		
-			
+			RESULT = new ArrayList<Type.Field>();
 		
               CUP$CUPParser$result = parser.getSymbolFactory().newSymbol("FieldList",15, ((java_cup.runtime.Symbol)CUP$CUPParser$stack.peek()), RESULT);
             }
@@ -1681,7 +1681,7 @@ class CUP$CUPParser$actions {
             {
               List<ExpNode> RESULT =null;
 		
-		
+			RESULT = new ArrayList<ExpNode>();
 		
               CUP$CUPParser$result = parser.getSymbolFactory().newSymbol("RecordFields",36, ((java_cup.runtime.Symbol)CUP$CUPParser$stack.peek()), RESULT);
             }
